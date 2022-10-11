@@ -585,6 +585,11 @@ footer{
   .header__para,
   .about__para{
       font-size: 20px;
+      margin-top: 24px;
+  }
+
+  .about__wrapper{
+    flex-direction: column;
   }
 }
 

@@ -8,41 +8,52 @@ function Landing() {
   return (
     <>
         <section id='landing'>
-            <div className="header__content">
-                    <h1 className="title">Hey</h1>
-                    <h1 className="title blue">I'm Shivom</h1>
-                    <p className="header__para">
+            <div className="header__content" data-aos-easing="ease-in-out">
+                    <h1 className="title" data-aos="fade-up">Hey</h1>
+                    <h1 className="title blue" data-aos="fade-up">I'm Shivom</h1>
+                    <p className="header__para" data-aos="fade-up" data-aos-delay="150">
                     I'm an aspiring <b className="blue">Frontend Software Engineer </b>
                     passionate about web design and problem solving. 
                     </p>
-                    <div className="social__list">
+                    <div className="social__list" data-aos-easing="ease-in-out">
                         <a 
                             href="https://www.linkedin.com/in/shivom-paudel-309792251/" 
                             target="_blank" 
-                            className="social__link click">
+                            className="social__link click"
+                            data-aos="fade-right"
+                            data-aos-delay="600">
                             <LinkedInIcon/>
                         </a>
                         <a 
                             href="https://github.com/ShivomP" 
                             target="_blank" 
-                            className="social__link click">
+                            className="social__link click"
+                            data-aos="fade-right"
+                            data-aos-delay="500">
                             <GitHubIcon/>
                         </a>
                         <a 
                             href="#" 
                             target="_blank" 
-                            className="social__link click">
+                            className="social__link click"
+                            data-aos="fade-right"
+                            data-aos-delay="400">
                             <DescriptionIcon/>
                         </a>
                         <a  href="mailto:shivompaudel@icloud.com" 
                             target="_blank" 
-                            className="social__link click">
-                            <EmailIcon/>
+                            className="social__link click"
+                            data-aos="fade-right"
+                            data-aos-delay="300">
+                            <EmailIcon />
                         </a>
                     </div>
             </div>
         </section>
-        <a href="#about" className="scroll">
+        <a  href="#about" 
+            className="scroll" 
+            data-aos="fade-down" 
+            data-aos-delay="700">
             <div className="scroll__icon click"></div>
         </a>
     </>

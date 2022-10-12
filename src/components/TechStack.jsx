@@ -5,10 +5,10 @@ function TechStack() {
     <section id='tech-stack'>
         <div className="container">
             <div className="row">
-                    <h1 className="section__title">
+                    <h1 className="section__title" data-aos="fade-up">
                         My <b className="blue">Technology Stack</b>
                     </h1>
-                    <div className="tech__stack--wrapper">
+                    <div className="tech__stack--wrapper" data-aos="fade-up" data-aos-delay="300">
                         <figure className="tech__img--wrapper">
                             <img 
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"

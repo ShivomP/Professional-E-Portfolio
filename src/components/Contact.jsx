@@ -34,10 +34,10 @@ const Contact = () => {
         <section id='contact'>
             <div className="container">
                 <div className="row">
-                    <h1 className="section__title">
+                    <h1 className="section__title" data-aos="fade-up">
                         Get in <b className="blue">Touch!</b>
                     </h1>
-                    <div className="contact__wrapper">
+                    <div className="contact__wrapper"  data-aos="fade-up" data-aos-delay="600">
                         <form ref={form} onSubmit={sendEmail} id="contact__form">
                             <input required type="text" placeholder='Name' className="form__name" name='user_name' />
                             <input required type="email" placeholder='Email' className="form__email" name='user_email' />

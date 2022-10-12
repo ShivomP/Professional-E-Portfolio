@@ -12,11 +12,11 @@ function Projects() {
     <section id='projects'>
       <div className="container">
         <div className="row">
-            <h1 className="section__title">
+            <h1 className="section__title" data-aos="fade-up">
                 Here are some of my <b className="blue">projects.</b>
             </h1>
             <ul className="project__list">
-                <li className="project">
+                <li className="project" data-aos="fade-up" data-aos-delay="600">
                     <div className="project__wrapper">
                         <img src={Movie} className="project__img" alt="Kive Cinemas image"/>
                         <div className="project__wrapper--bg"></div>
@@ -48,7 +48,7 @@ function Projects() {
                         </div>
                     </div>
                 </li>
-                <li className="project">
+                <li className="project" data-aos="fade-up" data-aos-delay="600">
                     <div className="project__wrapper">
                         <img src={Gmail} className="project__img" alt="Gmail Clone image"/>
                         <div className="project__wrapper--bg"></div>
@@ -80,7 +80,7 @@ function Projects() {
                         </div>
                     </div>
                 </li>
-                <li className="project">
+                <li className="project" data-aos="fade-up" data-aos-delay="600">
                     <div className="project__wrapper">
                         <img src={Ultraverse} className="project__img" alt="Gmail Clone image"/>
                         <div className="project__wrapper--bg"></div>
@@ -112,7 +112,7 @@ function Projects() {
                         </div>
                     </div>
                 </li>
-                <li className="project">
+                <li className="project" data-aos="fade-up" data-aos-delay="600">
                     <div className="project__wrapper">
                         <img src={Twitter} className="project__img" alt="Twitter Clone image"/>
                         <div className="project__wrapper--bg"></div>
@@ -146,7 +146,7 @@ function Projects() {
                         </div>
                     </div>
                 </li>
-                <li className="project">
+                <li className="project" data-aos="fade-up" data-aos-delay="600">
                     <div className="project__wrapper">
                         <img src={Google} className="project__img" alt="Google Clone image"/>
                         <div className="project__wrapper--bg"></div>

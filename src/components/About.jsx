@@ -6,10 +6,10 @@ function About() {
     <section id='about'>
       <div className="container">
         <div className="row">
-            <h1 className="section__title">
+            <h1 className="section__title" data-aos="fade-up">
                 About <b className="blue">Me.</b>
             </h1>
-            <div className="about__wrapper">
+            <div className="about__wrapper" data-aos="fade-up" data-aos-delay="300">
                 <img 
                     className='about__img' 
                     src={ProfilePic} 

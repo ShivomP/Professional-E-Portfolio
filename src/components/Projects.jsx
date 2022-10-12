@@ -25,7 +25,7 @@ function Projects() {
                                 Kive Cinemas
                             </h3>
                             <h4 className="project__description--sub-title">
-                                Html, CSS, Java, React
+                                Html, CSS, JavaScript, React
                             </h4>
                             <p className="project__description--para">
                                 Kive Cinemas is a website created to give any user an
@@ -57,7 +57,7 @@ function Projects() {
                                 Gmail Clone
                             </h3>
                             <h4 className="project__description--sub-title">
-                                Html, CSS, Java, React Redux, Firebase
+                                Html, CSS, JavaScript, React Redux, Firebase
                             </h4>
                             <p className="project__description--para">
                                 This Gmail Clone has Google Login using Google
@@ -89,7 +89,7 @@ function Projects() {
                                 Ultraverse
                             </h3>
                             <h4 className="project__description--sub-title">
-                                Html, CSS, Java, React
+                                Html, CSS, JavaScript, React
                             </h4>
                             <p className="project__description--para">
                                 Ultraverse is an NFT market place website created for users
@@ -121,7 +121,7 @@ function Projects() {
                                 Twitter Clone
                             </h3>
                             <h4 className="project__description--sub-title">
-                                Html, CSS, Java, React, Firbase
+                                Html, CSS, JavaScript, React, Firbase
                             </h4>
                             <p className="project__description--para">
                                 This Twitter Clone is a replication of the twitter website that
@@ -155,7 +155,7 @@ function Projects() {
                                 Google Clone
                             </h3>
                             <h4 className="project__description--sub-title">
-                                Html, CSS, Java, React
+                                Html, CSS, JavaScript, React
                             </h4>
                             <p className="project__description--para">
                                Using the Google Search API I was able to create a Google

@@ -1,6 +1,8 @@
 import React from 'react'
 import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import Logo from '../assets/logo.png'
+import Resume from '../assets/resume.pdf'
+
 
 function Footer() {
   return (
@@ -35,7 +37,7 @@ function Footer() {
                     ">
                         Github
                 </a>
-                <a  href="" 
+                <a  href={Resume} 
                     target="_blank"
                     className="
                     footer__social--link 

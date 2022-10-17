@@ -16,7 +16,7 @@ function About() {
                     alt="profile picture" 
                 />
                 <div className="about__para">
-                    Hi, my name is Shivom Paudel. I'm a 21 year old Frontend Developer. Building 
+                    Hi, my name is Shivom Paudel. I'm an aspiring Frontend Developer. Building 
                     <b className="blue"> aesthetic,</b>
                     <b className="blue"> personalized,</b> and
                     <b className="blue"> responsive </b> 

@@ -1,7 +1,7 @@
 import React from 'react'
 import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import Logo from '../assets/logo.png'
-import Resume from '../assets/resume.pdf'
+import Resume from '../assets/resume-shivompaudel.pdf'
 
 
 function Footer() {

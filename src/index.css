@@ -345,6 +345,7 @@ input:focus, textarea:focus{
   flex-direction: column;
   align-items: center;
   transition: all 300ms ease;
+  margin-bottom: 12px;
 }
 
 .tech__img--wrapper:hover{
@@ -591,6 +592,9 @@ footer{
   .about__wrapper{
     flex-direction: column;
   }
+  .tech__name{
+    font-size: 24px;
+  }
 }
 
 @media(max-width: 480px){
@@ -615,5 +619,8 @@ footer{
   }
   .project__description--sub-title {
       margin-bottom: 8px;
+  }
+  .tech__name{
+    font-size: 16px;
   }
 }

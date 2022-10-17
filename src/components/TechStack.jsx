@@ -41,6 +41,38 @@ function TechStack() {
                             />
                             <span className="tech__name">React</span>
                         </figure>
+                        <figure className="tech__img--wrapper">
+                            <img 
+                                src="https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png"
+                                 alt="React image" 
+                                 className="tech__img" 
+                            />
+                            <span className="tech__name">SASS</span>
+                        </figure>
+                        <figure className="tech__img--wrapper">
+                            <img 
+                                src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
+                                 alt="React image" 
+                                 className="tech__img" 
+                            />
+                            <span className="tech__name">Redux</span>
+                        </figure>
+                        <figure className="tech__img--wrapper">
+                            <img 
+                                src="https://www.svgrepo.com/show/303600/typescript-logo.svg"
+                                 alt="React image" 
+                                 className="tech__img" 
+                            />
+                            <span className="tech__name">TypeScript</span>
+                        </figure>
+                        <figure className="tech__img--wrapper">
+                            <img 
+                                src="https://firebase.google.com/static/downloads/brand-guidelines/PNG/logo-logomark.png"
+                                 alt="React image" 
+                                 className="tech__img" 
+                            />
+                            <span className="tech__name">Firebase</span>
+                        </figure>
                     </div>
             </div>
         </div>

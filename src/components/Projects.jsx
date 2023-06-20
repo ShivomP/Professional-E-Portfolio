@@ -1,8 +1,5 @@
 import React from 'react'
 import Movie from '../assets/Kive-Cinemas.png'
-import Gmail from '../assets/Gmail-Clone.png'
-import Twitter from '../assets/Twitter-Clone.png'
-import Google from '../assets/Google-Clone.png'
 import Ultraverse from '../assets/Ultraverse.png'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkIcon from '@mui/icons-material/Link';
@@ -72,72 +69,6 @@ function Projects() {
                                     <LinkIcon/>
                                 </a>
                                 <a href="https://github.com/ShivomP/shivom-internship" 
-                                    className="project__description--link"
-                                    target="_blank">
-                                    <GitHubIcon/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="project" data-aos="fade-up" data-aos-delay="600">
-                    <div className="project__wrapper">
-                        <img src={Gmail} className="project__img" alt="Gmail Clone image"/>
-                        <div className="project__wrapper--bg"></div>
-                        <div className="project__description">
-                            <h3 className="project__description--title">
-                                Gmail Clone
-                            </h3>
-                            <h4 className="project__description--sub-title">
-                                Html, CSS, JavaScript, React Redux, Firebase
-                            </h4>
-                            <p className="project__description--para">
-                                This Gmail Clone has Google Login using Google
-                                Authentication. There is also a compose and send 
-                                function that allows the user to send and recieve 
-                                composed emails using Firebase.
-                            </p>
-                            <div className="project__description--links">
-                                <a href="https://gmail-clone-ckai.vercel.app/" 
-                                    className="project__description--link"
-                                    target="_blank">
-                                    <LinkIcon/>
-                                </a>
-                                <a href="https://github.com/ShivomP/Gmail-Clone" 
-                                    className="project__description--link"
-                                    target="_blank">
-                                    <GitHubIcon/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className="project" data-aos="fade-up" data-aos-delay="600">
-                    <div className="project__wrapper">
-                        <img src={Twitter} className="project__img" alt="Twitter Clone image"/>
-                        <div className="project__wrapper--bg"></div>
-                        <div className="project__description">
-                            <h3 className="project__description--title">
-                                Twitter Clone
-                            </h3>
-                            <h4 className="project__description--sub-title">
-                                Html, CSS, JavaScript, React, Firbase
-                            </h4>
-                            <p className="project__description--para">
-                                This Twitter Clone is a replication of the twitter website that
-                                allows your to post tweets with images and captions. The user
-                                generated data is stoed in Firebase. This clone also pulls live 
-                                feed from Bill Gates twitter page in the widget component.
-                            </p>
-                            <div className="project__description--links">
-                                <a 
-                                    href="https://twitter-clone-ivxb.vercel.app/" 
-                                    className="project__description--link"
-                                    target="_blank">
-                                    <LinkIcon/>
-                                </a>
-                                <a 
-                                    href="https://github.com/ShivomP/Twitter-Clone" 
                                     className="project__description--link"
                                     target="_blank">
                                     <GitHubIcon/>

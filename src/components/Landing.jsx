@@ -13,7 +13,7 @@ function Landing() {
                     <h1 className="title" data-aos="fade-up">Hey</h1>
                     <h1 className="title blue" data-aos="fade-up">I'm Shivom</h1>
                     <p className="header__para" data-aos="fade-up" data-aos-delay="150">
-                    I'm a <b className="blue">Front End Software Engineer,</b> 
+                    I'm a <b className="blue">Front End Software Engineer, </b> 
                     passionate about web design and problem solving. 
                     </p>
                     <div className="social__list" data-aos-easing="ease-in-out">

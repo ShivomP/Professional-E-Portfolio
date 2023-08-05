@@ -16,7 +16,7 @@ function About() {
                     alt="profile picture" 
                 />
                 <div className="about__para">
-                    Hi, my name is Shivom Paudel. I'm a Front End Engineer. Building 
+                    Hi, my name is Shivom Paudel. I'm a Software Engineer. Building 
                     <b className="blue"> aesthetic,</b>
                     <b className="blue"> personalized,</b> and
                     <b className="blue"> responsive </b> 

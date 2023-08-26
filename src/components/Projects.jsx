@@ -1,7 +1,7 @@
 import React from 'react'
 import Movie from '../assets/Kive-Cinemas.png'
+import Hike from '../assets/hike.png'
 import Ultraverse from '../assets/Ultraverse.png'
-import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkIcon from '@mui/icons-material/Link';
 
 function Projects() {
@@ -13,6 +13,31 @@ function Projects() {
                 Here are some of my <b className="blue">projects.</b>
             </h1>
             <ul className="project__list">
+                <li className="project" data-aos="fade-up" data-aos-delay="600">
+                    <div className="project__wrapper">
+                        <img src={Hike} className="project__img" alt="Kive Cinemas image"/>
+                        <div className="project__wrapper--bg"></div>
+                        <div className="project__description">
+                            <h3 className="project__description--title">
+                                Hike Medical Website
+                            </h3>
+                            <h4 className="project__description--sub-title">
+                                Html, Tailwind, TypeScript, Next
+                            </h4>
+                            <p className="project__description--para">
+                                Hike Medical is a startup that I worked for as a Frontend Engineer.
+                                I built their website along with the MVP for their web application.
+                            </p>
+                            <div className="project__description--links">
+                                <a  href="https://www.hikemedical.com/" 
+                                    className="project__description--link"
+                                    target="_blank">
+                                    <LinkIcon/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
                 <li className="project" data-aos="fade-up" data-aos-delay="600">
                     <div className="project__wrapper">
                         <img src={Movie} className="project__img" alt="Kive Cinemas image"/>
@@ -34,12 +59,6 @@ function Projects() {
                                     className="project__description--link"
                                     target="_blank">
                                     <LinkIcon/>
-                                </a>
-                                <a  
-                                    href="https://github.com/ShivomP/Movie-Project" 
-                                    className="project__description--link"
-                                    target="_blank">
-                                    <GitHubIcon/>
                                 </a>
                             </div>
                         </div>
@@ -67,11 +86,6 @@ function Projects() {
                                     className="project__description--link"
                                     target="_blank">
                                     <LinkIcon/>
-                                </a>
-                                <a href="https://github.com/ShivomP/shivom-internship" 
-                                    className="project__description--link"
-                                    target="_blank">
-                                    <GitHubIcon/>
                                 </a>
                             </div>
                         </div>

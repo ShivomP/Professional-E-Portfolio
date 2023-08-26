@@ -1,4 +1,5 @@
 import React from 'react'
+import Next from '../assets/next.webp'
 
 function TechStack() {
   return (
@@ -43,11 +44,11 @@ function TechStack() {
                         </figure>
                         <figure className="tech__img--wrapper">
                             <img 
-                                src="https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png"
+                                src={Next}
                                  alt="React image" 
                                  className="tech__img" 
                             />
-                            <span className="tech__name">SASS</span>
+                            <span className="tech__name">Next</span>
                         </figure>
                         <figure className="tech__img--wrapper">
                             <img 

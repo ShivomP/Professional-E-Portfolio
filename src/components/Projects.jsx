@@ -19,7 +19,7 @@ function Projects() {
                         <div className="project__wrapper--bg"></div>
                         <div className="project__description">
                             <h3 className="project__description--title">
-                                Hike Medical Website
+                                Hike Medical
                             </h3>
                             <h4 className="project__description--sub-title">
                                 Html, Tailwind, TypeScript, Next

@@ -3,6 +3,7 @@ import Movie from '../assets/Kive-Cinemas.png'
 import Hike from '../assets/hike.png'
 import Ultraverse from '../assets/Ultraverse.png'
 import LinkIcon from '@mui/icons-material/Link';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Projects() {
   return (
@@ -54,12 +55,21 @@ function Projects() {
                                 easy and fast place to find movies. My website utilizes The 
                                 Movie DB API which provides a wide variety of movies.
                             </p>
-                            <div className="project__description--links">
-                                <a  href="https://kive-cinemas.vercel.app/ " 
-                                    className="project__description--link"
-                                    target="_blank">
-                                    <LinkIcon/>
-                                </a>
+                            <div className='project__links--wrapper'>
+                                <div className="project__description--links">
+                                    <a  href="https://kive-cinemas.vercel.app/ " 
+                                        className="project__description--link"
+                                        target="_blank">
+                                        <LinkIcon/>
+                                    </a>
+                                </div>
+                                <div className="project__description--links">
+                                    <a  href="https://github.com/ShivomP/Movie-Project" 
+                                        className="project__description--link"
+                                        target="_blank">
+                                        <GitHubIcon/>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -81,12 +91,21 @@ function Projects() {
                                 pulls data from an API, includes library integration for multiple 
                                 features, and includes dynamic routing to different pages.
                             </p>
-                            <div className="project__description--links">
-                                <a href="https://shivom-internship.vercel.app/" 
-                                    className="project__description--link"
-                                    target="_blank">
-                                    <LinkIcon/>
-                                </a>
+                            <div className="project__links--wrapper">
+                                <div className="project__description--links">
+                                    <a href="https://shivom-internship.vercel.app/" 
+                                        className="project__description--link"
+                                        target="_blank">
+                                        <LinkIcon/>
+                                    </a>
+                                </div>
+                                <div className="project__description--links">
+                                    <a  href="https://github.com/ShivomP/shivom-internship" 
+                                        className="project__description--link"
+                                        target="_blank">
+                                        <GitHubIcon/>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

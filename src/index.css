@@ -448,6 +448,10 @@ input:focus, textarea:focus{
   margin-top: 8px;
 }
 
+.project__links--wrapper{
+  display: flex;
+}
+
 /* CONTACT  */
 
 .contact__wrapper{
@@ -620,6 +624,13 @@ footer{
   .project__description--sub-title {
       margin-bottom: 8px;
   }
+
+  .project__links--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .tech__name{
     font-size: 16px;
   }

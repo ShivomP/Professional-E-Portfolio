@@ -106,6 +106,7 @@ input:focus, textarea:focus{
   margin-bottom: 12px;
   text-align: left;
   line-height: 1;
+  text-align: center;
 }
 
 .blue{
@@ -247,6 +248,11 @@ input:focus, textarea:focus{
   padding: 0 30px;
 }
 
+.subtitle{
+  font-size: 40px;
+  text-align: center;
+}
+
 .header__para{
   font-size: 24px;
   line-height: 2;
@@ -256,6 +262,7 @@ input:focus, textarea:focus{
 .social__list{
   margin-top: 16px;
   display: flex;
+  justify-content: center;
 }
 
 .social__link{
@@ -274,7 +281,7 @@ input:focus, textarea:focus{
 
 .scroll{
   position: absolute;
-  bottom: 20px;
+  bottom: 75px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -587,7 +594,6 @@ footer{
       font-size: 80px;
   }
 
-  .header__para,
   .about__para{
       font-size: 20px;
       margin-top: 24px;
@@ -596,31 +602,36 @@ footer{
   .about__wrapper{
     flex-direction: column;
   }
-  .tech__name{
-    font-size: 24px;
-  }
 }
 
 @media(max-width: 480px){
   .title{
-      font-size: 52px;
+      font-size: 44px;
   }
-  .header__para,
+
+  .subtitle{
+    font-size: 24px;
+  }
+
   .about__para {
       font-size: 18px;
   }
+
   .nav__link:first-child {
       display: none;
   }
+
   .project__description--para {
       display: none;
   }
+
   .project__description {
       left: 0;
       padding: 0;
       width: 100%;
       text-align: center;
   }
+
   .project__description--sub-title {
       margin-bottom: 8px;
   }
@@ -629,9 +640,5 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .tech__name{
-    font-size: 16px;
   }
 }

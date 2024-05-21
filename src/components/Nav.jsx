@@ -33,14 +33,6 @@ function Nav() {
                             >About</a>
                         </li>
                         <li className="nav__link">
-                            <a href="#tech-stack" 
-                                className="
-                                nav__link--anchor 
-                                link__hover-effect 
-                                link__hover-effect--black"
-                            >Tech Stack</a>
-                        </li>
-                        <li className="nav__link">
                             <a href="#projects" 
                                 className="
                                 nav__link--anchor 

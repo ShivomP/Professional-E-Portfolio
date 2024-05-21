@@ -11,7 +11,7 @@ function Projects() {
       <div className="container">
         <div className="row">
             <h1 className="section__title" data-aos="fade-up">
-                Here are some of my <b className="blue">projects.</b>
+                My <b className="blue">Projects</b>
             </h1>
             <ul className="project__list">
                 <li className="project" data-aos="fade-up" data-aos-delay="600">

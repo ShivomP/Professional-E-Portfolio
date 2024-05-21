@@ -13,7 +13,7 @@ function About() {
                 <img 
                     className='about__img' 
                     src={ProfilePic} 
-                    alt="profile picture" 
+                    alt="profile picture"
                 />
                 <div className="about__para">
                     Hi, my name is Shivom Paudel. I'm a Software Engineer. Building 

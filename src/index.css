@@ -337,47 +337,6 @@ input:focus, textarea:focus{
   max-width: 450px;
 }
 
-/* TECH STACK */
-
-.tech__stack--wrapper{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.tech__img--wrapper{
-  width: 25%;
-  padding: 32px 16px 16px 16px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: all 300ms ease;
-  margin-bottom: 12px;
-}
-
-.tech__img--wrapper:hover{
-  filter: brightness(80%);
-  transform: scale(0.9);
-  transition: all 300ms ease;
-}
-
-.tech__img--wrapper:hover .tech__name{
-  transform: scale(1);
-  transition: all 300ms ease;
-}
-
-.tech__img{
-  width: 100%;
-}
-
-.tech__name{
-  position: absolute;
-  bottom: -50px;
-  transform: scale(0);
-  transition: all 300ms ease;
-  font-size: 32px;
-}
-
 /* PROJECTS  */
 
 .project{

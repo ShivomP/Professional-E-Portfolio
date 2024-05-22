@@ -19,6 +19,7 @@ function Projects() {
                             autoPlay
                             loop
                             muted
+                            playsInline
                         />
                         <div className="project__wrapper--bg"></div>
                         <div className="project__description">
@@ -44,6 +45,7 @@ function Projects() {
                             autoPlay
                             loop
                             muted
+                            playsInline
                         />
                         <div className="project__wrapper--bg"></div>
                         <div className="project__description">

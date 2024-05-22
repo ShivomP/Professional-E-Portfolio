@@ -16,13 +16,10 @@ function About() {
                     alt="profile picture"
                 />
                 <div className="about__para">
-                    Hi, my name is Shivom Paudel. I'm a Software Engineer. Building 
-                    <b className="blue"> aesthetic,</b>
-                    <b className="blue"> personalized,</b> and
-                    <b className="blue"> responsive </b> 
-                    user experiences is my passion. I enjoy pushing myself
-                    to <b className="blue">solve problems</b> and create solutions that positively impact others. 
-                    Turning ideas to real life products is what I do best.
+                    Hi, my name is Shivom Paudel. I'm an experienced computer science student interested 
+                    in crafting efficient, scalable, and user-centric solutions. With a strong focus 
+                    on problem-solving and meticulous attention to detail, my goal is to transform concepts 
+                    into cutting-edge products. I am committed to keeping up with the latest technologies and frameworks.
                 </div>
             </div>
         </div>

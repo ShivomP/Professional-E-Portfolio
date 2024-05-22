@@ -10,42 +10,38 @@ function Landing() {
     <>
         <section id='landing'>
             <div className="header__content">
-                <h1 className='title' data-aos="fade-up">
+                <h1 className='title' data-aos="fade-up" data-aos-delay='100'>
                     Shivom Paudel
                 </h1>
-                <h2 className='subtitle blue' data-aos="fade-up" data-aos-delay='100'>
+                <h2 className='subtitle blue' data-aos="fade-up" data-aos-delay='300'>
                     <b>Software Engineer</b>
                 </h2>
-                <div className="social__list">
+                <div className="social__list" data-aos='fade-up' data-aos-delay='500'>
                     <a 
                         href="https://www.linkedin.com/in/shivom-paudel-309792251/" 
                         target="_blank" 
                         className="social__link click"
-                        data-aos="fade-up"
-                        data-aos-delay="150">
+                    >
                         <LinkedInIcon/>
                     </a>
                     <a 
                         href="https://github.com/ShivomP" 
                         target="_blank" 
                         className="social__link click"
-                        data-aos="fade-up"
-                        data-aos-delay="200">
+                    >
                         <GitHubIcon/>
                     </a>
                     <a 
                         href={Resume}
                         target="_blank" 
                         className="social__link click"
-                        data-aos="fade-up"
-                        data-aos-delay="250">
+                    >
                         <DescriptionIcon/>
                     </a>
                     <a  href="mailto:shivompaudel@icloud.com" 
                         target="_blank" 
                         className="social__link click"
-                        data-aos="fade-up"
-                        data-aos-delay="300">
+                    >
                         <EmailIcon />
                     </a>
                 </div>
@@ -53,8 +49,8 @@ function Landing() {
         </section>
         <a  href="#about" 
             className="scroll" 
-            data-aos="fade-down" 
-            data-aos-delay="350">
+            data-aos="fade-up" 
+        >
             <div className="scroll__icon click"></div>
         </a>
     </>

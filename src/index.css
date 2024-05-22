@@ -343,7 +343,7 @@ input:focus, textarea:focus{
   margin-bottom: 135px;
 }
 
-.project__img{
+.project__video{
   width: 100%;
   transition: all 600ms ease;
 }
@@ -400,22 +400,12 @@ input:focus, textarea:focus{
   font-size: 40px;
 }
 
-.project__description--link{
-  color: white;
-  font-size: 20px;
-  margin-right: 16px;
-}
-
 .project__description--para{
   margin: 16px 0;
 }
 
 .project__description--sub-title{
   margin-top: 8px;
-}
-
-.project__links--wrapper{
-  display: flex;
 }
 
 /* CONTACT  */

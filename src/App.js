@@ -8,7 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function App() {
-  AOS.init({ duration: 1200, once: true })
+  AOS.init({ duration: 800, once: true })
   return (
     <div className="App">
       <Nav/>

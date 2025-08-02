@@ -281,8 +281,8 @@ input:focus, textarea:focus{
 
 .scroll{
   position: absolute;
-  bottom: 75px;
-  left: 50%;
+  bottom: 100px;
+  left: 49.75%;
   transform: translateX(-50%);
 }
 
@@ -325,14 +325,14 @@ input:focus, textarea:focus{
 }
 
 .about__img{
-  height: 300px;
-  width: 295px;
-  border-radius: 50%;
+  height: 350px;
+  width: 262.5px;
+  border-radius: 32px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.75);
 }
 
 .about__para{
-  font-size: 24px;
+  font-size: 20px;
   line-height: 2;
   max-width: 450px;
 }

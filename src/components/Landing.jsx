@@ -50,6 +50,7 @@ function Landing() {
         <a  href="#about" 
             className="scroll" 
             data-aos="fade-up" 
+            data-aos-delay='600'
         >
             <div className="scroll__icon click"></div>
         </a>

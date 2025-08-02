@@ -1,6 +1,6 @@
-import React from 'react'
 import Movie from '../assets/movie.mp4'
 import Ultraverse from '../assets/ultraverse.mp4'
+import Intern from '../assets/Intern-Pres.mp4'
 
 function Projects() {
   return (
@@ -11,7 +11,36 @@ function Projects() {
                 My <b className="blue">Projects</b>
             </h1>
             <ul className="project__list">
-                <li className="project" data-aos="fade-up" data-aos-delay="600">
+                <li className="project" data-aos="fade-up" data-aos-delay="400">
+                    <div className="project__wrapper">
+                        <video 
+                            className='project__video'
+                            src={Intern}
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                        />
+                        <div className="project__wrapper--bg"></div>
+                        <div className="project__description">
+                            <h3 className="project__description--title">
+                                Internship Presentation
+                            </h3>
+                            <h4 className="project__description--sub-title">
+                                HTML, CSS, JavaScript, Three.js, React
+                            </h4>
+                            <p className="project__description--para">
+                                This is a website I built for my intern presentation. I used
+                                Three.js to create a 3D vector space and this allowed me to 
+                                place objects and the camera in the correct position using 
+                                X, Y, and Z coordinates. For the "website" embedded in the monitor
+                                I used an iframe html tag to sever a separate html page with custom 
+                                styling and CSS.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li className="project" data-aos="fade-up" data-aos-delay="400">
                     <div className="project__wrapper">
                         <video 
                             className='project__video'
@@ -37,7 +66,7 @@ function Projects() {
                         </div>
                     </div>
                 </li>
-                <li className="project" data-aos="fade-up" data-aos-delay="600">
+                <li className="project" data-aos="fade-up" data-aos-delay="400">
                     <div className="project__wrapper">
                         <video 
                             className='project__video'

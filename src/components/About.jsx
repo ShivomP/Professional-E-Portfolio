@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfilePic from '../assets/Profile_Close.jpg'
+import ProfilePic from '../assets/Profile_Far.jpg'
 
 function About() {
   return (
@@ -16,10 +16,11 @@ function About() {
                     alt="profile picture"
                 />
                 <div className="about__para">
-                    Hi, my name is Shivom Paudel. I'm an experienced computer science student interested 
-                    in crafting efficient, scalable, and user-centric solutions. With a strong focus 
-                    on problem-solving and meticulous attention to detail, my goal is to transform concepts 
-                    into cutting-edge products. I am committed to keeping up with the latest technologies and frameworks.
+                  I'm a Software Engineer with 3+ years of experience, passionate about algorithms, 
+                  systems design, and building everything from full-stack applications to backend infrastructure. 
+                  My work spans AI-driven interview simulators, scalable content ingestion pipelines, 
+                  and real-time web apps. I thrive on solving complex problems, learning fast, and shipping 
+                  high-impact software.
                 </div>
             </div>
         </div>

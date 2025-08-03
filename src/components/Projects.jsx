@@ -2,6 +2,7 @@ import Movie from '../assets/movie.mp4'
 import Ultraverse from '../assets/ultraverse.mp4'
 import Intern from '../assets/Intern-Pres.mp4'
 import OGTool from '../assets/OGTool.mp4'
+import Blackjack from '../assets/blackjack.mp4'
 
 function Projects() {
   return (
@@ -65,6 +66,36 @@ function Projects() {
                                 X, Y, and Z coordinates. For the "website" embedded in the monitor
                                 I used an iframe html tag to sever a separate html page with custom 
                                 styling and CSS.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li className="project" data-aos="fade-up" data-aos-delay="400">
+                    <div className="project__wrapper">
+                        <video 
+                            className='project__video'
+                            src={Blackjack}
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                        />
+                        <div className="project__wrapper--bg"></div>
+                        <div className="project__description">
+                            <h3 className="project__description--title">
+                                Blackjack Application
+                            </h3>
+                            <h4 className="project__description--sub-title">
+                                Java, JavaFx
+                            </h4>
+                            <p className="project__description--para">
+                                This was a group project for my object oriented programming class.
+                                My group used Java and JavaFx to build the application and also followed
+                                various design patterns and programming principles while developing this 
+                                Blackjack game. Every user starts with $100 dollars and competes for a spot 
+                                on the top 10 leaderboard. We used serilaization to store users info, as well
+                                as salting and encryption to make sure users passwords were stored safely. Some 
+                                of the design patterns we used included: Singleton, Iterator, and Flyweight.
                             </p>
                         </div>
                     </div>

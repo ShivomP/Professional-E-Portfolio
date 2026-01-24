@@ -1,4 +1,3 @@
-import React from 'react'
 import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import Logo from '../assets/logo.png'
 import Resume from '../assets/resume-shivompaudel.pdf'
@@ -9,7 +8,7 @@ function Footer() {
     <footer>
       <div className="container">
         <div className="row footer__row">
-            <a href="#" className="footer__anchor">
+            <a href="#home" className="footer__anchor">
                 <figure className="footer__logo">
                     <img src={Logo} alt="personal logo" className='footer__logo--img' />
                 </figure>

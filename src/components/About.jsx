@@ -13,7 +13,7 @@ function About() {
                 <img 
                     className='about__img' 
                     src={ProfilePic} 
-                    alt="profile picture"
+                    alt="profile pic"
                 />
                 <div className="about__para">
                   I'm a Software Engineer with 3+ years of experience, passionate about algorithms, 

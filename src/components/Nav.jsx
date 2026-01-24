@@ -17,7 +17,7 @@ function toggleContrast() {
 function Nav() {
   return (
     <section id="nav-bar">
-        <div className="container container__nav">
+        <div className="container container__nav" id="home">
             <div className="row">
                 <div className="nav__wrapper">
                     <figure>
@@ -49,7 +49,7 @@ function Nav() {
                             >Contact</a>
                         </li>
                         <li className="nav__link click" onClick={toggleContrast}>
-                            <a href="#" className="
+                            <a href="#home" className="
                             nav__link--anchor
                             link__hover-effect 
                             link__hover-effect--black

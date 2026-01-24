@@ -21,6 +21,7 @@ function Footer() {
             <div className="footer__social--list">
                 <a  href="https://www.linkedin.com/in/shivom-paudel-309792251/" 
                     target="_blank"
+                    rel="noreferrer"
                     className="
                     footer__social--link 
                     link__hover-effect 
@@ -30,6 +31,7 @@ function Footer() {
                 </a>
                 <a  href="https://github.com/ShivomP" 
                     target="_blank"
+                    rel="noreferrer"
                     className="
                     footer__social--link 
                     link__hover-effect 
@@ -39,6 +41,7 @@ function Footer() {
                 </a>
                 <a  href={Resume} 
                     target="_blank"
+                    rel="noreferrer"
                     className="
                     footer__social--link 
                     link__hover-effect 
@@ -48,6 +51,7 @@ function Footer() {
                 </a>
                 <a  href="mailto:shivompaudel@icloud.com" 
                     target="_blank"
+                    rel="noreferrer"
                     className="
                     footer__social--link 
                     link__hover-effect 

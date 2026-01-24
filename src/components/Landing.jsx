@@ -21,6 +21,7 @@ function Landing() {
                         href="https://www.linkedin.com/in/shivom-paudel-309792251/" 
                         target="_blank" 
                         className="social__link click"
+                        rel="noreferrer"
                     >
                         <LinkedInIcon/>
                     </a>
@@ -28,6 +29,7 @@ function Landing() {
                         href="https://github.com/ShivomP" 
                         target="_blank" 
                         className="social__link click"
+                        rel="noreferrer"
                     >
                         <GitHubIcon/>
                     </a>
@@ -35,12 +37,14 @@ function Landing() {
                         href={Resume}
                         target="_blank" 
                         className="social__link click"
+                        rel="noreferrer"
                     >
                         <DescriptionIcon/>
                     </a>
                     <a  href="mailto:shivompaudel@icloud.com" 
                         target="_blank" 
                         className="social__link click"
+                        rel="noreferrer"
                     >
                         <EmailIcon />
                     </a>

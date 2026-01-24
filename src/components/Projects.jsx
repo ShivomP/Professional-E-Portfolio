@@ -27,7 +27,7 @@ function Projects() {
                         <div className="project__wrapper--bg"></div>
                         <div className="project__description">
                             <h3 className="project__description--title">
-                                AI-Powered Mock Interview Platform
+                                Mock Interview Platform
                             </h3>
                             <h4 className="project__description--sub-title">
                                 React, Node.js, Supabase, OpenAI API, Tailwind

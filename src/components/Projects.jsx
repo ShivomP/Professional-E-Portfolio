@@ -3,6 +3,7 @@ import Ultraverse from '../assets/ultraverse.mp4'
 import Intern from '../assets/Intern-Pres.mp4'
 import OGTool from '../assets/OGTool.mp4'
 import Blackjack from '../assets/blackjack.mp4'
+import ClearVoice from '../assets/clearvoice.mp4'
 
 function Projects() {
   return (
@@ -13,6 +14,36 @@ function Projects() {
                 My <b className="blue">Projects</b>
             </h1>
             <ul className="project__list">
+                <li className="project" data-aos="fade-up" data-aos-delay="400">
+                    <div className="project__wrapper">
+                        <video 
+                            className='project__video'
+                            src={ClearVoice}
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                        />
+                        <div className="project__wrapper--bg"></div>
+                        <div className="project__description">
+                            <h3 className="project__description--title">
+                                AI-Powered Mock Interview Platform
+                            </h3>
+                            <h4 className="project__description--sub-title">
+                                React, Node.js, Supabase, OpenAI API, Tailwind
+                            </h4>
+                            <p className="project__description--para">
+                                Built a full-stack web app simulating real-time mock interviews 
+                                from job descriptions using dynamic AI-generated
+                                questions and live feedback. Designed secure user authentication 
+                                using Supabase and httpOnly cookies, storing interview sessions and generating
+                                chat-style feedback history. Implemented voice-based interview responses 
+                                with audio transcription via Whisper and LLM-based content/confidence
+                                feedback using OpenAI.
+                            </p>
+                        </div>
+                    </div>
+                </li>
                 <li className="project" data-aos="fade-up" data-aos-delay="400">
                     <div className="project__wrapper">
                         <video 
